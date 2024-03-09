@@ -454,7 +454,7 @@ on the container's size */
    }
  }
 
-@media (max-width:991px){
+{
 
    html{
       font-size: 55%;
@@ -474,7 +474,7 @@ on the container's size */
 
 }
 
-@media (max-width:768px){
+{
 
    section{
       padding:3rem 1rem;
@@ -521,7 +521,7 @@ on the container's size */
 
 }
 
-@media (max-width:450px){
+{
 
    html{
       font-size: 50%;
