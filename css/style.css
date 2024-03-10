@@ -442,19 +442,6 @@ on the container's size */
    :root {
      --two-col-layout: 1;
    }
- }
- @media only screen and (max-width: 59em) {
-   :root {
-     --three-col-layout: 2;
-   }
- }
- @media only screen and (max-width: 37.5em) {
-   :root {
-     --three-col-layout: 1;
-   }
- }
-
-{
 
    html{
       font-size: 55%;
@@ -471,10 +458,12 @@ on the container's size */
    section{
       padding:5rem 2rem;
    }
-
-}
-
-{
+ }
+ 
+@media only screen and (max-width: 59em) {
+   :root {
+     --three-col-layout: 2;
+   }
 
    section{
       padding:3rem 1rem;
@@ -510,33 +499,12 @@ on the container's size */
       margin:1rem 0;
       font-size: 2rem;
    }
-
-   .home{
-      background-position: left;
+ }
+ @media only screen and (max-width: 37.5em) {
+   :root {
+     --three-col-layout: 1;
    }
-
-   .home .content{
-      width: auto;
-   }
-
-}
-
-{
-
-   html{
-      font-size: 50%;
-   }
-
-   .home .content h3{
-      font-size: 4rem;
-   }
-
-   .heading{
-      font-size: 3rem;
-   }
-
-}
-
+ }
 
 
 /* */
