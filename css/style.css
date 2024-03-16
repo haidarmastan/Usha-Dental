@@ -347,6 +347,26 @@ on the container's size */
    font-size: 1.5rem;
 }
 
+
+.contact{
+   background-image: url(../images/gallery/reception004_1.webp);
+   
+   /* Background image doesn't tile */
+   background-repeat: no-repeat;
+   
+   /* This is what makes the background image rescale based
+on the container's size */
+   background-size: cover;
+
+   /* Background image is centered vertically and horizontally at all times */
+   background-position: center center;
+  /* min-height: 100vh; */
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+   the content's height is greater than the image's height */
+   background-attachment: fixed;
+}
+
 .contact form{
    border-radius: .5rem;
    background-color: var(--light-bg);
